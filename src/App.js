@@ -5,6 +5,7 @@ import Users from "./components/Users";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 import './components/main.scss';
+import User from "./components/user";
 
 function App (){
   return(
@@ -12,9 +13,10 @@ function App (){
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/users" element={<Users/>} />
           <Route path="/login" element={<Login/>} />
+          <Route path="/users/:id" element={<User/>} />
+          <Route path="/users" element={<Users/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </Router>
     </div>

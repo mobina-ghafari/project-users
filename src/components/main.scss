@@ -1,5 +1,5 @@
 
-
+//USERS
 .my-input-search{
     background-color: white;
     border: none;
@@ -8,3 +8,48 @@
     border-radius: 10px;
     padding: 10px;
 }
+
+//USERS
+
+//LOGIN
+
+form{
+    input{
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid #0dcaf0;
+        outline: none;
+        
+    }
+    
+    input:focus{
+        border: none;
+        border-bottom: 1px solid #0dcaf0;
+        border-radius: 0px;
+    }
+    
+    label{
+        font-size: 16px;
+        color: #666;
+        transition: all 0.4s;
+    }
+    
+    button{
+        border: none;
+        background: none;
+        padding: 10px 0px;
+        color: #0dcaf0;
+        font-size: larger;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+    }
+
+    button:hover{
+        color: #666;
+    }
+}
+//LOGIN
